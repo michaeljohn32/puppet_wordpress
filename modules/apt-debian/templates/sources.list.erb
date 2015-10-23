@@ -1,0 +1,11 @@
+#
+#  /etc/apt/sources.list
+#
+
+deb     http://<%= @proxy %>/<%= @mainserver %>/	<%= @release %> main contrib non-free
+deb-src http://<%= @proxy %>/<%= @mainserver %>/	<%= @release %> main contrib non-free
+
+deb     http://<%= @proxy %>/<%= @bpserver %>/debian-backports <%= @release %>-backports main
+
+deb     http://<%= @proxy %>/<%= @secserver %>/ <%= @release %>/updates  main contrib non-free
+deb-src http://<%= @proxy %>/<%= @secserver %>/ <%= @release %>/updates  main contrib non-free

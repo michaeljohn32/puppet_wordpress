@@ -1,0 +1,7 @@
+Package: *
+<% if @release == "squeeze" %>Pin: release a=oldstable,n=squeeze<%elsif @release == "wheezy" %>Pin: release a=stable<%end %>
+Pin-Priority: 900
+
+Package: *
+Pin: release o=Debian
+Pin-Priority: -10

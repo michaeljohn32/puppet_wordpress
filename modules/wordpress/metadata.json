@@ -1,0 +1,42 @@
+{
+  "name": "jonhadfield-wordpress",
+  "version": "0.0.6",
+  "source": "https://github.com/jonhadfield/puppet-wordpress",
+  "author": "Jon Hadfield",
+  "license": "Apache2",
+  "summary": "Puppet module to set up an instance of wordpress",
+  "description": "Installs wordpress and dependencies.",
+  "project_page": "https://github.com/jonhadfield/puppet-wordpress",
+  "dependencies": [
+
+  ],
+  "types": [
+
+  ],
+  "checksums": {
+    "Modulefile": "cd33734a3c8a9d3a98407a7e581edc57",
+    "README.md": "bcd903ce790c0c7cf079ad2d108e7b59",
+    "files/README.markdown": "3d44458cc68d8513b51e3b56c604eec4",
+    "files/plugins/wordpress-importer.0.6.1.zip": "f1ad49b6247acc7029407eec94876e67",
+    "files/themes/suffusion.4.4.7.zip": "a0c3b7b556931fdf033ac7769cf0b080",
+    "files/wordpress-3.7.1.zip": "e8bb628a4e1cff8f14825c06b7adbcc4",
+    "files/wordpress.conf": "f734e9824bbd52f1eedf0a8f1f9469c4",
+    "lib/facter/README.markdown": "145e26334b4d80e48e9e55ba78800579",
+    "lib/puppet/parser/functions/README.markdown": "e596ce938864a80fd1e51640cca7f612",
+    "lib/puppet/provider/README.markdown": "3835801d7626dd8d541c4fdf7ca9f3e4",
+    "lib/puppet/type/README.markdown": "34b8c80ba8683afca99f2d28ca7e70b2",
+    "manifests/README.markdown": "b9970454391883e36b55137328792a55",
+    "manifests/app.pp": "efc7f6a5c1911cbe2a178684fc63fa87",
+    "manifests/db.pp": "fb9d777b44ea5f18bb48cdac1ca4b273",
+    "manifests/init.pp": "01c18273c110997b36f1c516f62cdfbc",
+    "spec/README.markdown": "32a1fc0121c28aff554ef5d422b8b51e",
+    "spec/spec.opts": "a600ded995d948e393fbe2320ba8e51c",
+    "spec/spec_helper.rb": "ca19ec4f451ebc7fdb035b52eae6e909",
+    "spec/unit/puppet/provider/README.markdown": "e52668944ee6af2fb5d5b9e798342645",
+    "spec/unit/puppet/type/README.markdown": "de26a7643813abd6c2e7e28071b1ef94",
+    "templates/README.markdown": "aada0a1952329e46b98695349dba6203",
+    "templates/create_wordpress_db.erb": "aaec68e986b171cd71cb952074699e96",
+    "templates/wp-config.erb": "ac2d1e36ab4860389557bcc6f69449d7",
+    "tests/init.pp": "a23704c7fa3e120c64432759a7fac342"
+  }
+}
