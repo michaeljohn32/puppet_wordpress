@@ -1,7 +1,9 @@
     puppet_wordpress - quick puppet environment for wordpress based on a lot of other people's work 
 
-    The following modules are directly off the puppet forge with notations:
-├── jonhadfield-wordpress (v0.0.6)  - Updated to work with mysql class
+    This environment is set up for a vagrant testing installation
+
+    The following modules are directly off the puppet forge with notations of changes:
+├── jonhadfield-wordpress (v0.0.6)  - Updated to work with mysql class and exposed some variables for hiera
 ├── nanliu-staging (v1.0.3)
 ├── puppetlabs-apache (v1.6.0)
 ├── puppetlabs-apt (v2.2.0)
